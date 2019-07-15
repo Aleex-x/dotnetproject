@@ -3016,6 +3016,15 @@
           }
         }
       },
+      "Stack247.System.Web.UI.DataBinder/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/System.Web.UI.DataBinder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/System.Web.UI.DataBinder.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7799,6 +7808,18 @@
         "version.txt"
       ]
     },
+    "Stack247.System.Web.UI.DataBinder/1.0.0": {
+      "sha512": "yKzquQj3X8+4J27DJz4xze51PrVq68s7dzvvmwiEB8laFohZxBs5CNHT0cocvR/vcWjE9MVabG6KFxnKPVsYgg==",
+      "type": "package",
+      "path": "stack247.system.web.ui.databinder/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/System.Web.UI.DataBinder.dll",
+        "stack247.system.web.ui.databinder.1.0.0.nupkg.sha512",
+        "stack247.system.web.ui.databinder.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -12262,7 +12283,8 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "MySql.Data >= 8.0.16"
+      "MySql.Data >= 8.0.16",
+      "Stack247.System.Web.UI.DataBinder >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12324,6 +12346,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[8.0.16, )"
+          },
+          "Stack247.System.Web.UI.DataBinder": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

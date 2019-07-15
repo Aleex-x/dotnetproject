@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj": {}
+    "D:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "d:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj": {
+    "D:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "D:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "d:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "D:\\projects\\DOTNET\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "d:\\projects\\DOTNET\\MvcMovie\\obj\\",
+        "outputPath": "D:\\projects\\DOTNET\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,6 +59,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.16, )"
+            },
+            "Stack247.System.Web.UI.DataBinder": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
